@@ -1,0 +1,3 @@
+GET : Fungsi ini digunakan untuk perintah menampilkan data.
+POST: Fungsi ini digunakan untuk perintah dalam menambahkan data.
+DELETE: Fungsi ini digunakan untuk perintah dalam menghapus data.
