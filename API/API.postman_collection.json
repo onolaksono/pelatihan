@@ -1,0 +1,357 @@
+{
+	"info": {
+		"_postman_id": "b49403f5-18b2-4a9f-896c-04659ac2d01b",
+		"name": "API",
+		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json",
+		"_exporter_id": "11312439"
+	},
+	"item": [
+		{
+			"name": "API2",
+			"item": [
+				{
+					"name": "1",
+					"request": {
+						"method": "GET",
+						"header": [
+							{
+								"key": "b48857026f6d400a8b1d23fe0ee9e30a",
+								"value": "",
+								"type": "text",
+								"disabled": true
+							}
+						],
+						"url": {
+							"raw": "https://swapi.dev/api/planets/1/",
+							"protocol": "https",
+							"host": [
+								"swapi",
+								"dev"
+							],
+							"path": [
+								"api",
+								"planets",
+								"1",
+								""
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "2",
+					"request": {
+						"method": "GET",
+						"header": [
+							{
+								"key": "b48857026f6d400a8b1d23fe0ee9e30a",
+								"value": "",
+								"type": "text",
+								"disabled": true
+							}
+						],
+						"url": {
+							"raw": "https://swapi.dev/api/planets/2/",
+							"protocol": "https",
+							"host": [
+								"swapi",
+								"dev"
+							],
+							"path": [
+								"api",
+								"planets",
+								"2",
+								""
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "3",
+					"request": {
+						"method": "GET",
+						"header": [
+							{
+								"key": "b48857026f6d400a8b1d23fe0ee9e30a",
+								"value": "",
+								"type": "text",
+								"disabled": true
+							}
+						],
+						"url": {
+							"raw": "https://swapi.dev/api/people/2/",
+							"protocol": "https",
+							"host": [
+								"swapi",
+								"dev"
+							],
+							"path": [
+								"api",
+								"people",
+								"2",
+								""
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "4",
+					"request": {
+						"method": "GET",
+						"header": [
+							{
+								"key": "b48857026f6d400a8b1d23fe0ee9e30a",
+								"value": "",
+								"type": "text",
+								"disabled": true
+							}
+						],
+						"url": {
+							"raw": "https://swapi.dev/api/people/3/",
+							"protocol": "https",
+							"host": [
+								"swapi",
+								"dev"
+							],
+							"path": [
+								"api",
+								"people",
+								"3",
+								""
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "5",
+					"request": {
+						"method": "GET",
+						"header": [
+							{
+								"key": "b48857026f6d400a8b1d23fe0ee9e30a",
+								"value": "",
+								"type": "text",
+								"disabled": true
+							}
+						],
+						"url": {
+							"raw": "https://swapi.dev/api/vehicles/14/",
+							"protocol": "https",
+							"host": [
+								"swapi",
+								"dev"
+							],
+							"path": [
+								"api",
+								"vehicles",
+								"14",
+								""
+							]
+						}
+					},
+					"response": []
+				}
+			]
+		},
+		{
+			"name": "API1",
+			"item": [
+				{
+					"name": "1",
+					"request": {
+						"method": "GET",
+						"header": [
+							{
+								"key": "b48857026f6d400a8b1d23fe0ee9e30a",
+								"value": "",
+								"type": "text"
+							}
+						],
+						"url": {
+							"raw": "https://newsapi.org/v2/everything?q=apple&from=2022-07-31&to=2022-07-31&sortBy=popularity&apiKey=b48857026f6d400a8b1d23fe0ee9e30a",
+							"protocol": "https",
+							"host": [
+								"newsapi",
+								"org"
+							],
+							"path": [
+								"v2",
+								"everything"
+							],
+							"query": [
+								{
+									"key": "q",
+									"value": "apple"
+								},
+								{
+									"key": "from",
+									"value": "2022-07-31"
+								},
+								{
+									"key": "to",
+									"value": "2022-07-31"
+								},
+								{
+									"key": "sortBy",
+									"value": "popularity"
+								},
+								{
+									"key": "apiKey",
+									"value": "b48857026f6d400a8b1d23fe0ee9e30a"
+								}
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "2",
+					"request": {
+						"method": "GET",
+						"header": [
+							{
+								"key": "b48857026f6d400a8b1d23fe0ee9e30a",
+								"value": "",
+								"type": "text"
+							}
+						],
+						"url": {
+							"raw": "https://newsapi.org/v2/everything?q=tesla&from=2022-07-01&sortBy=publishedAt&apiKey=b48857026f6d400a8b1d23fe0ee9e30a",
+							"protocol": "https",
+							"host": [
+								"newsapi",
+								"org"
+							],
+							"path": [
+								"v2",
+								"everything"
+							],
+							"query": [
+								{
+									"key": "q",
+									"value": "tesla"
+								},
+								{
+									"key": "from",
+									"value": "2022-07-01"
+								},
+								{
+									"key": "sortBy",
+									"value": "publishedAt"
+								},
+								{
+									"key": "apiKey",
+									"value": "b48857026f6d400a8b1d23fe0ee9e30a"
+								}
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "3",
+					"request": {
+						"method": "GET",
+						"header": [
+							{
+								"key": "b48857026f6d400a8b1d23fe0ee9e30a",
+								"value": "",
+								"type": "text"
+							}
+						],
+						"url": {
+							"raw": "https://newsapi.org/v2/top-headlines?country=us&category=business&apiKey=b48857026f6d400a8b1d23fe0ee9e30a",
+							"protocol": "https",
+							"host": [
+								"newsapi",
+								"org"
+							],
+							"path": [
+								"v2",
+								"top-headlines"
+							],
+							"query": [
+								{
+									"key": "country",
+									"value": "us"
+								},
+								{
+									"key": "category",
+									"value": "business"
+								},
+								{
+									"key": "apiKey",
+									"value": "b48857026f6d400a8b1d23fe0ee9e30a"
+								}
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "4",
+					"request": {
+						"method": "GET",
+						"header": [],
+						"url": {
+							"raw": "https://newsapi.org/v2/top-headlines?sources=techcrunch&apiKey=b48857026f6d400a8b1d23fe0ee9e30a",
+							"protocol": "https",
+							"host": [
+								"newsapi",
+								"org"
+							],
+							"path": [
+								"v2",
+								"top-headlines"
+							],
+							"query": [
+								{
+									"key": "sources",
+									"value": "techcrunch"
+								},
+								{
+									"key": "apiKey",
+									"value": "b48857026f6d400a8b1d23fe0ee9e30a"
+								}
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "5",
+					"request": {
+						"method": "GET",
+						"header": [],
+						"url": {
+							"raw": "https://newsapi.org/v2/everything?domains=wsj.com&apiKey=b48857026f6d400a8b1d23fe0ee9e30a",
+							"protocol": "https",
+							"host": [
+								"newsapi",
+								"org"
+							],
+							"path": [
+								"v2",
+								"everything"
+							],
+							"query": [
+								{
+									"key": "domains",
+									"value": "wsj.com"
+								},
+								{
+									"key": "apiKey",
+									"value": "b48857026f6d400a8b1d23fe0ee9e30a"
+								}
+							]
+						}
+					},
+					"response": []
+				}
+			]
+		}
+	]
+}
